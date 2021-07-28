@@ -1589,7 +1589,6 @@ class _FlutterSliderState extends State<FlutterSlider>
     return Positioned(
       key: Key('rightHandler'),
       left: _rightHandlerXPosition,
-      top: _rightHandlerYPosition,
       right: right,
       bottom: bottom,
       child: Listener(
