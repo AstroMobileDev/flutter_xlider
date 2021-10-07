@@ -1881,8 +1881,7 @@ class _FlutterSliderState extends State<FlutterSlider>
                 }
                 if (_distanceFromRightHandler!.abs() <
                         _distanceFromLeftHandler!.abs() ||
-                    (_distanceFromLeftHandler == _distanceFromRightHandler &&
-                        thumbPosition < rightHandlerLastPosition)) {
+                    (_distanceFromLeftHandler == _distanceFromRightHandler)) {
                   _rightTapAndSlide = true;
                 }
               }
